@@ -1,7 +1,23 @@
+# YOLOv8
 ultralytics==8.3.235
+
+# OpenCV para video y frames
 opencv-python==4.11.0.86
+
+# Manejo de datos
 pandas==2.3.3
-matplotlib==3.10.7
+numpy>=1.21.6  # compatible con Python 3.9 y pandas
+
+# Visualización
+matplotlib>=3.5.3  # compatible con Python 3.9
+
+# Notebooks
 notebook==7.5.0
+ipython>=8.15.0
+
+# Deep Learning
 torch==2.5.1
 torchvision==0.20.1
+
+# Tracking requerido por ByteTrack/BOT-SORT
+lap>=0.5.12
