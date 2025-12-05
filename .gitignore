@@ -1,0 +1,23 @@
+# 1. Ignorar todo por defecto
+*
+
+# 2. Permitir carpetas necesarias (para poder desbloquear archivos dentro)
+!models/
+!notebooks/
+
+# 3. Bloquear explícitamente Dataset y Runs (Seguridad extra)
+notebooks/overhead/
+notebooks/runs/
+
+# 4. Bloquear todo el contenido dentro de las carpetas permitidas
+models/*
+notebooks/*
+
+# 5. Lista blanca (Whitelist): Solo permitir estos archivos específicos
+!models/overhead_people_tracking.pt
+!notebooks/clean_images.py
+!notebooks/entrenamiento_yolo.ipynb
+!requirements.txt
+!realtime.py
+!README.md
+!.gitignore
