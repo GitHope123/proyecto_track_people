@@ -10,7 +10,6 @@ notebooks/overhead/
 notebooks/runs/
 
 # 4. Bloquear todo el contenido dentro de las carpetas permitidas
-models/*
 notebooks/*
 
 # 5. Lista blanca (Whitelist): Solo permitir estos archivos específicos
